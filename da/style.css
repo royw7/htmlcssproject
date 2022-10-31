@@ -1,0 +1,47 @@
+.nextButton button{
+    background-color: pink;
+    color:black;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+
+}
+
+.nextButton button:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  .backButton button{
+    background-color: gold;
+    color:black;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+
+}
+
+.backButton button:hover {
+    background-color: red;
+    color: white;
+  }
+
+  h1{
+    padding:30px;
+    background:grey;
+    font-weight:bold;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  #mainInfo{
+  
+
+  }
+
+  body{
+    background-color:black ;
+    color:white;
+  }
