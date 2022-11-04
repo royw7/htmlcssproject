@@ -1,0 +1,51 @@
+.nextButton button{
+    background-color: pink;
+    color:black;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+
+}
+  .generalButton button{
+    background-color: rgb(170, 43, 43);
+    color:white;
+    padding: 5px 50px;
+    float: left;
+    border: none;
+    width:25%;
+  }
+
+  .generalButton button:hover{
+    background-color: darkred;
+    color:white;
+  }
+
+  #currentPage button{
+    background-color: darkred;
+    color:white;
+  }
+  
+  h1{
+    padding:30px;
+    background:darkred;
+    font-weight:bold;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:-5px;
+  }
+
+  body{
+    background-color:black ;
+    color:white;
+  }
+
+  footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+   }
+
+   form{
+    text-align: center;
+   }
