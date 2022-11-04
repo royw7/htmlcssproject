@@ -7,27 +7,6 @@
     padding: 10px 24px;
 
 }
-
-.nextButton button:hover {
-    background-color: blue;
-    color: white;
-  }
-
-  .backButton button{
-    background-color: gold;
-    color:black;
-    text-align: center;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    padding: 10px 24px;
-
-}
-
-.backButton button:hover {
-    background-color: red;
-    color: white;
-  }
-
   .generalButton button{
     background-color: white;
     color:black;
@@ -38,9 +17,15 @@
   }
 
   .generalButton button:hover{
-    background-color: black;
+    background-color: rgb(49, 15, 49);
     color:white;
   }
+
+  #currentPage button{
+    background-color: rgb(49, 15, 49);
+    color:white;
+  }
+  
   h1{
     padding:30px;
     background:grey;
@@ -53,12 +38,13 @@
     display: flex;
   }
 
-  #mainInfo{
   
-
-  }
 
   body{
     background-color:black ;
     color:white;
+  }
+
+  footer{
+
   }
