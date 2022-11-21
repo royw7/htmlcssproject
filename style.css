@@ -1,0 +1,157 @@
+  body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+
+  }
+   
+  @media only screen and (max-width: 600px) { /*Phone display*/
+    .photoGall{                      /*Photo shows in a singular column for phone display using grids*/
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    .photoGall img{                   /*This is to resize the image*/
+      object-fit: cover;
+      width:100%;
+      height:100%;
+    }
+
+    .grid{                             /*This is for other images*/
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    .grid img{                  
+      object-fit: cover;
+      width:100%;
+      height:100%;
+    }
+
+    .grid iframe{
+      object-fit: cover;
+      width:100%;
+      height:100%;
+    }
+     
+  #outside {                              /*This creates the header banner*/
+    padding: 20%;
+    background-color: rgb(4, 27, 53);
+  }
+  h1{
+    color:white;                      /*This stylizes the header text*/
+    font-weight:bold;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom:-5px;
+  }
+  }
+
+
+  @media only screen and (min-width: 601px) {         /*Computer display*/
+    .photoGall{                                    /*3 columns photo gallery using display grid*/
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      row-gap:0;
+      column-gap: 0;
+    }
+  
+    .imageBigger{                         /*makes one image bigger in photogallery using span*/
+      grid-row-start: span 2;
+      grid-column-start: span 2;
+    }
+  
+    .photoGall img{                
+      object-fit: cover;
+      width:100%;
+      height:100%;
+    }
+
+     
+  #outside {                                 /*outermost banner for header using padding*/
+    padding: 100px;
+    background-color:rgb(25, 114, 216);
+  }
+  h1{
+    padding:50px;               /*innermost banner using padding*/
+    background: rgb(4, 27, 53);
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:-5px;
+  }
+  }
+
+  
+  .centerized{              /*this helps centerize things without having things start at the middle. Padding-right is only 21% instead of 25% is artisitc choice*/
+    padding-left: 25%;
+    padding-right: 21%;
+  }
+
+  h2{                      /*centers all h2 text*/
+    text-align: center;
+  }
+
+  .center{                 /*center things directly using text-align*/
+    text-align: center;
+  }
+  .generalButton button{                  /*stylizes the navigation using buttons*/
+    background-color:rgb(90, 154, 226);
+    color:white;
+    font-size: large;
+    padding: 1%;
+    float: left;
+    border: none;
+    width:25%;
+  }
+
+  .generalButton button:hover{      /*creates a mouse hover effect for navigation buttons using button:hover*/
+    background-color: rgb(4, 27, 53);
+    color:white;
+  }
+
+  #currentPage button{                     /*stylizes the button color of current page so user knows what page they are in*/
+    background-color:  rgb(4, 27, 53);
+    color:white;
+  }
+
+  footer{                /*stylizes footer to rightmost*/
+    text-align: end;
+   }
+
+
+   table {                     /*stylizes and helps table go to middle with margin*/
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+    width: 40%;
+  }
+
+  td{                     /*text goes to middle with text-align property*/
+    text-align: center;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;        /*more styling*/
+    padding: 3%;
+  }
+  
+  tr:nth-child(odd){
+    background-color: palegoldenrod;
+  }
+  tr:nth-child(even) {
+    background-color: lightyellow;
+  }
+
+  form{                         /*aligns form in center with text-align property*/
+    text-align: center;
+  }
+
+  
+  video{
+    display: block;                /*aligns video in middle*/
+    margin-left: auto;
+    margin-right: auto;
+  }
